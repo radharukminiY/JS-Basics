@@ -1,0 +1,19 @@
+localStorage
+data is always present in browser after saving once
+can be access through any tab
+we have to remove it manually
+
+localStorage.setItem('token','4562t')
+undefined
+localStorage.getItem('token')
+"4562t"
+localStorage.setItem('token','mytoken')
+undefined
+localStorage.getItem('token')
+"mytoken"
+localStorage.removeItem('token')
+undefined
+
+sessionStorage
+save wrt to tab
+remove automatically as soon as tab close

@@ -1,0 +1,35 @@
+https://github.com/username/reponame.git
+
+first time for new project
+git clone https://github.com/username/reponame.gi
+/////
+Push the code
+/////
+git add .
+git commit -m "a"
+git push
+
+** before push in ongoing folder always
+git pull
+
+/////
+New folder first time
+//////
+git init
+git add .
+git commit -m "first commit"
+git remote add origin https://github.com/Aakashdeveloper/evngtest.git
+git push -u origin master
+
+/////
+All next time
+//////
+git add .
+git commit -m "first commit"
+git push
+
+>>>>>>>>>>>>Branch<<<<<<<<<
+git checkout -b branchname
+git add .
+git commit -m "A"
+git push -u origin home-feature

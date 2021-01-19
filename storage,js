@@ -1,7 +1,8 @@
+///
 localStorage
-data is always present in browser after saving once
-can be access through any tab
-we have to remove it manually
+--data is always present in browser after saving once
+--can be access through any tab
+--we have to remove it manually
 
 localStorage.setItem('token','4562t')
 undefined
@@ -14,6 +15,23 @@ localStorage.getItem('token')
 localStorage.removeItem('token')
 undefined
 
+////
 sessionStorage
-save wrt to tab
-remove automatically as soon as tab close
+--save wrt to tab
+--remove automatically as soon as tab close
+sessionStorage.setItem("_ltk",'342rt5m')
+undefined
+sessionStorage.getItem('_ltk')
+"342rt5m"
+sessionStorage.removeItem('_ltk')
+undefined
+sessionStorage.getItem('_ltk')
+null
+
+///
+cookies
+--save wrt to website
+--can save  and remove automatically with specified time
+--in same browser its is always available wrt to website
+
+document.cookie = "username=reddy; expires=Thu, 19 jan 2020 12:00:00 UTC";

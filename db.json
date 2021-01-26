@@ -1,0 +1,63 @@
+var books=[
+  {
+   "name" :"Herri-poter",
+   "rating":4.5,
+   "lang":"Eng"
+},
+{
+"name" :"Catch-22",
+"rating":4.2,
+"lang":"Eng"
+},
+{
+  "name" :"Moby Dick",
+  "rating":4.2,
+  "lang":"Eng"
+}
+]
+
+typeof(books)
+"object"
+books[0].name
+"Herri-poter"
+books[2].name
+"Moby Dick"
+books[2].rating
+4.2
+
+///
+var books=[
+  {
+   "name" :"Herri-poter",
+   "rating":4.5,
+   "lang":"Eng"
+},
+{
+"name" :"Catch-22",
+"rating":4.2,
+"lang":"Eng"
+},
+{
+  "name" :"Moby Dick",
+  "rating":4.2,
+  "lang":"Eng"
+}
+]
+books.map((data) =>{
+  return data.name
+  })
+
+  (3) ["Herri-poter", "Catch-22", "Moby Dick"]
+
+  //
+  var books={"name" :"Catch-22",
+"rating":4.2,
+"lang":"Eng"
+}
+for(a in books){
+  console.log(a)
+}
+
+name
+rating
+lang

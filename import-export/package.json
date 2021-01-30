@@ -1,0 +1,17 @@
+{
+  "name": "import-export",
+  "version": "1.0.0",
+  "description": "it is js file",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "rr",
+  "license": "ISC",
+  "keywords": [],
+  "dependencies": {
+    "@babel/core": "^7.12.10",
+    "@babel/preset-env": "^7.12.11",
+    "@babel/register": "^7.12.10"
+  }
+}
